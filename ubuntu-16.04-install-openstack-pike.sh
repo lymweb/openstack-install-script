@@ -31,6 +31,7 @@ METADATA_SECRET='yourpassword' #/etc/neutron/metadata_agent.ini suitable secret 
 #qemu or kvm
 VIRT_TYPE="kvm"
 
+
 #检测ip地址
 eth0name=$(ifconfig |grep 10.10 -B 1 |head -n 1 |awk '{print $1}')	&& echo eth0name=	$eth0name
 eth0ip=$(ifconfig $eth0name | grep "inet addr:" | awk '{print $2}' | cut -c 6-) && echo eth0ip=	$eth0ip
