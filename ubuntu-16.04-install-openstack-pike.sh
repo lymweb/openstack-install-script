@@ -18,7 +18,7 @@ NOVA_PLACEMENT_PASS='yourpassword'
 BARBICAN_DB_PASSWD='yourpassword'
 MISTRAL_DB_PASSWD='yourpassword'
 TACKER_DB_PASSWD='yourpassword'
-#network:
+#network
 Ext_IP='10.10.27'
 Ext_Gateway='10.10.26.1'
 Internal_IP='192.168.1'
