@@ -29,7 +29,6 @@ PROVIDER_NETWORK_CIDR='10.10.26.0/23'
 RABBIT_PASS='yourpassword'
 METADATA_SECRET='yourpassword' #/etc/neutron/metadata_agent.ini suitable secret for the metadata proxy
 
-
 #qemu or kvm
 VIRT_TYPE="kvm"
 
